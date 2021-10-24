@@ -1,0 +1,293 @@
+
+/* General style */
+
+body{
+    
+}
+
+
+/* Navbar links */
+
+nav{
+    height: 56px;
+    color: #fff !important;
+
+}
+
+nav .logo{
+    font-size: 2em;
+}
+
+nav a{
+    color: #fff;
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: #eee;
+}
+
+
+/* Header carousel */
+
+header{
+    height: 500px;
+    color: #fff !important;
+}
+
+header .carousel-caption{
+    bottom: 150px;
+}
+
+
+/* About me section */
+
+.about_me{
+    min-height: 400px;
+}
+
+.about_me .pic img{
+    border-radius: 30px !important;
+}
+
+
+/* Education section */
+
+.edu{
+    min-height: 400px;
+    color: #000
+
+}
+
+
+/* Skills section */
+
+.progress {
+    width: 150px;
+    height: 150px;
+    background: none;
+    position: relative;
+}
+
+.progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.progress .progress-left {
+    left: 0;
+}
+
+.progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+
+.progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+
+.progress .progress-right {
+    right: 0;
+}
+
+.progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+}
+
+.progress .progress-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+
+/* Work experience section */
+
+.work_exp {
+    background: #f4f4f4;
+    min-height: 600px;
+}
+
+.work_exp .about_work{
+    padding: 100px 30px 0px;
+}
+
+.work_exp .t_line{
+    float: left;
+}
+
+/** the vertical ruler **/
+.work_exp .timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 10%;
+  margin-left: -3px;
+}
+
+/** Container around content **/
+.work_exp .cont {
+  padding: 10px 10px;
+  width: 100%;
+  left: 10%;
+}
+
+/** The circles on the timeline **/
+.work_exp .cont::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #6430be;
+  top: 55px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/** Fix the circle for containers on the right side **/
+.work_exp .right::after {
+  left: -16px;
+}
+
+/** The actual content **/
+.work_exp .content {
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 6px;
+}
+
+.work_exp .logo{
+    width: 75px;
+    height: 75px;
+    border-radius: 30px;
+}
+
+
+
+/* Footer section */
+footer{
+    background-color: #363842;
+    min-height: 80px;
+    color: #fff;
+}
+
+footer h3{
+    padding: 20px 0px;
+}
+
+footer a{
+  color: #fff;
+}
+
+
+footer a:hover{
+  text-decoration: none;
+  color: #eee
+}
+
+/* Contact section */
+
+.inp input{
+    padding-left: 35px;
+}
+
+.inp i{
+    position: absolute;
+    left: 15px;
+    top: 10px
+}
+
+.social div{
+  opacity: 0.5;
+}
+
+.social div:hover{
+  opacity: 1;
+}
+
+.social a{
+  text-decoration: none;
+  color: #000;
+}
+
+/* Control Panel */
+
+/* Dashboard */
+
+.side_nav{
+  height: 600px;
+  padding-top: 100px;
+  background-color: #191818;
+}
+.side_nav li{
+  border: none;
+  background-color: inherit !important;
+  color: #fff;
+}
+
+.side_nav li:hover{
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-left: 2px solid #f00;
+}
+.side_nav .active{
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-left: 2px solid #f00;
+  border-radius: 0;
+}
+
+
+/* Blog settings */
+
+.posts h2{
+  font-size: 3em;
+}
+
+.post_tit{
+  padding-top: 200px;
+}
+
+.posts a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+
+
